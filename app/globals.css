@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Colors — Option B: Nordic Glacier Cyan & Charcoal (Plumbing Theme) */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-alt: #f3f9f9;
+  --color-primary: #111d2e;
+  --color-accent: #028090;
+  --color-accent-light: #00a896;
+  --color-text: #1e293b;
+  --color-text-light: #64748b;
+  --color-border: #def0f0;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}

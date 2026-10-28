@@ -1,0 +1,623 @@
+{
+  "common": {
+    "Footer": {
+      "logo": "/main logo/footer_logo.webp",
+      "logoAlt": "BluePipe Plumbing Logo",
+      "brandTitle": "BluePipe",
+      "copyrightText": "© 2026 BluePipe Plumbing. All Rights Reserved. Powered By Lestow",
+      "description": "BluePipe is your trusted local plumbing partner. From quick leak fixes to full bathroom upgrades, we provide fast, honest, and affordable service every day.",
+      "hoursTitle": "Opening Hours",
+      "hoursDays": "Monday - Saturday:",
+      "hours": "8:00 AM - 8:00 PM\nSunday: 24/7 Emergency Service",
+      "socialLinks": [
+        {
+          "id": "fs1",
+          "icon": "FaFacebookF",
+          "url": "https://www.facebook.com"
+        },
+        {
+          "id": "fs2",
+          "icon": "FaInstagram",
+          "url": "https://www.instagram.com"
+        },
+        {
+          "id": "fs3",
+          "icon": "FaLinkedinIn",
+          "url": "https://www.linkedin.com"
+        },
+        {
+          "id": "fs4",
+          "icon": "FaYoutube",
+          "url": "https://www.youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "ql1",
+          "label": "Home",
+          "url": "#home"
+        },
+        {
+          "id": "ql2",
+          "label": "About Us",
+          "url": "#about"
+        },
+        {
+          "id": "ql3",
+          "label": "Services",
+          "url": "#services"
+        },
+        {
+          "id": "ql4",
+          "label": "How It Works",
+          "url": "#process"
+        },
+        {
+          "id": "ql5",
+          "label": "Why Choose Us",
+          "url": "#why-choose-us"
+        },
+        {
+          "id": "ql6",
+          "label": "Testimonials",
+          "url": "#testimonials"
+        },
+        {
+          "id": "ql8",
+          "label": "Contact",
+          "url": "#contact"
+        }
+      ],
+      "servicesLinks": [
+        {
+          "id": "sl1",
+          "label": "Pipe Leak Repairs",
+          "url": "#services"
+        },
+        {
+          "id": "sl2",
+          "label": "Drain & Sewer Unclogging",
+          "url": "#services"
+        },
+        {
+          "id": "sl3",
+          "label": "Water Heater Care",
+          "url": "#services"
+        },
+        {
+          "id": "sl4",
+          "label": "Tap & Shower Fitting",
+          "url": "#services"
+        },
+        {
+          "id": "sl5",
+          "label": "Toilet & Flush Fixes",
+          "url": "#services"
+        },
+        {
+          "id": "sl6",
+          "label": "Emergency Support",
+          "url": "#services"
+        }
+      ],
+      "contactInfo": {
+        "address": "123 River Road, Suite 400, New York, NY",
+        "phone": "+1 (555) 234-5678",
+        "email": "help@bluepipeplumbing.com"
+      },
+      "instagram": [
+        "/other/service-1.jpg",
+        "/other/service-2.jpg",
+        "/other/service-3.jpg",
+        "/other/service-4.jpg",
+        "/other/service-5.jpg",
+        "/other/service-6.jpg"
+      ]
+    }
+  },
+  "categories": {
+    "Plumbing": {
+      "templateComponents": {
+        "shared": {
+          "Topbar": "PlumbingTopBar2",
+          "Header": "PlumbingHeader2",
+          "Footer": "PlumbingFooter2"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "PlumbingHero2"
+              },
+              {
+                "key": "AboutUs",
+                "component": "PlumbingAboutUs2"
+              },
+              {
+                "key": "Services",
+                "component": "PlumbingServices2"
+              },
+              {
+                "key": "Process",
+                "component": "PlumbingProcess2"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "PlumbingWhyChooseUs2"
+              },
+              {
+                "key": "Testimonials",
+                "component": "PlumbingTestimonials2"
+              },
+              {
+                "key": "Cta",
+                "component": "PlumbingCta2"
+              },
+              {
+                "key": "Contact",
+                "component": "PlumbingContact2"
+              }
+            ]
+          }
+        }
+      },
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "PlumbingTopBar2": {
+              "phoneLabel": "Call Us:",
+              "phoneValue": "+1 (000) 000-0000",
+              "emailValue": "info@xyz.com",
+              "followLabel": "Connect With Us:",
+              "socialLinks": [
+                {
+                  "id": "tb-fb",
+                  "icon": "FaFacebookF",
+                  "url": "https://www.facebook.com"
+                },
+                {
+                  "id": "tb-ig",
+                  "icon": "FaXTwitter",
+                  "url": "https://x.com"
+                },
+                {
+                  "id": "tb-in",
+                  "icon": "FaInstagram",
+                  "url": "https://www.instagram.com"
+                },
+                {
+                  "id": "tb-yt",
+                  "icon": "FaLinkedinIn",
+                  "url": "https://www.linkedin.com"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "PlumbingHeader2": {
+              "logo": "/main logo/logo.webp",
+              "logoAlt": "BluePipe Plumbing",
+              "contactInfoLeft": [
+                {
+                  "id": "ci-phone",
+                  "icon": "FiPhoneCall",
+                  "label": "24/7 Rapid Help:",
+                  "value": "+1 (555) 234-5678"
+                },
+                {
+                  "id": "ci-email",
+                  "icon": "FiMail",
+                  "label": "Email Support:",
+                  "value": "help@bluepipeplumbing.com"
+                }
+              ],
+              "contactInfoRight": [
+                {
+                  "id": "ci-location",
+                  "icon": "FiMapPin",
+                  "label": "Service Area:",
+                  "value": "Greater New York City Metro"
+                }
+              ],
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "#home"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "#about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "#services"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-process",
+                  "label": "Process",
+                  "url": "#process"
+                },
+                {
+                  "id": "nl-why",
+                  "label": "Why Us",
+                  "url": "#why-choose-us"
+                },
+                {
+                  "id": "nl-testimonials",
+                  "label": "Reviews",
+                  "url": "#testimonials"
+                }
+              ],
+              "contactButton": {
+                "text": "Contact Us",
+                "url": "#contact"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "PlumbingHero2": {
+              "subtitle": "FAST & FRIENDLY LOCAL PLUMBERS",
+              "title1": "Fast Fixes For",
+              "title2": "Every Leak, Pipe",
+              "title3": "& Clogged Drain.",
+              "description": "We fix plumbing problems right the first time. Enjoy clear pricing, clean workmanship, and same-day home visits across the city.",
+              "image1": "/other/hero-bg.jpg",
+              "image2": "/other/hero-bg.jpg",
+              "image3": "/other/hero-bg.jpg",
+              "button": {
+                "text": "Get A Quick Quote",
+                "url": "#contact"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "PlumbingAboutUs2": {
+              "subtitle": "WHO WE ARE",
+              "title1": "Caring For Your Home Pipes",
+              "title2": "With Honesty & Skill",
+              "description": "At BluePipe, we treat your home like our own. Our certified technicians arrive on time, explain every step clearly, and never charge surprise fees. Whether it is a dripping tap or a flooded basement, you can count on us.",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiTool",
+                  "title": "Clean & Tidy\nWorkmanship"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiTool",
+                  "title": "Same-Day Urgent\nRepairs"
+                }
+              ],
+              "checklists": [
+                "Hidden water leak finding",
+                "24/7 weekend emergency care",
+                "Sink, shower & toilet upgrades",
+                "Safe gas and boiler line fixes"
+              ],
+              "avatars": [
+                "/other/avatar-1.jpg",
+                "/other/avatar-2.jpg",
+                "/other/avatar-3.jpg"
+              ],
+              "customersText": "5,000+\nHappy Families Served",
+              "button": {
+                "text": "Chat With Us ->",
+                "url": "#contact"
+              },
+              "imageMain": "/other/about-main.jpg",
+              "badgeText1": "15+",
+              "badgeText2": "Years Of Local\nService",
+              "bgImage": "",
+              "imageSmall2": "/other/about-small.jpg"
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "PlumbingServices2": {
+              "subtitle": "OUR SERVICES",
+              "title1": "Complete Plumbing Help",
+              "title2": "For Houses & Offices",
+              "description": "Simple, hassle-free plumbing services designed to keep your taps running, drains clean, and water heaters working at full power.",
+              "button": {
+                "text": "Schedule A Service ->",
+                "url": "#contact"
+              },
+              "services": [
+                {
+                  "id": "s1",
+                  "title": "Pipe Leak Detection & Repair",
+                  "description": "We find hidden leaks behind walls and floors using modern cameras, fixing drips before they damage your home.",
+                  "image": "/other/service-1.jpg",
+                  "icon": "GiPipes",
+                  "url": "#contact"
+                },
+                {
+                  "id": "s2",
+                  "title": "Clogged Drain & Pipe Clearing",
+                  "description": "Slow sinks or blocked drains? We quickly clear hair, food, and grease buildups so water drains away smoothly.",
+                  "image": "/other/service-2.jpg",
+                  "icon": "MdPlumbing",
+                  "url": "#contact"
+                },
+                {
+                  "id": "s3",
+                  "title": "Water Heater Care & Install",
+                  "description": "Enjoy endless hot water with our fast water heater repair, seasonal tank flush, and energy-saving replacements.",
+                  "image": "/other/service-3.jpg",
+                  "icon": "FaFire",
+                  "url": "#contact"
+                },
+                {
+                  "id": "s4",
+                  "title": "Kitchen & Bathroom Fixtures",
+                  "description": "Upgrade your bathroom and kitchen with new faucets, showerheads, stylish sinks, and leak-free installations.",
+                  "image": "/other/service-4.jpg",
+                  "icon": "FaBath",
+                  "url": "#contact"
+                },
+                {
+                  "id": "s5",
+                  "title": "Toilet Repair & Replacement",
+                  "description": "Fix running toilets, weak flush issues, and annoying leaks. We replace old toilets with modern water-saving designs.",
+                  "image": "/other/service-5.jpg",
+                  "icon": "FaWrench",
+                  "url": "#contact"
+                },
+                {
+                  "id": "s6",
+                  "title": "24/7 Emergency Plumbing",
+                  "description": "Burst pipes or sudden backups do not wait for business hours. Our rapid-response team is ready when you call.",
+                  "image": "/other/service-6.jpg",
+                  "icon": "FiTool",
+                  "url": "#contact"
+                }
+              ]
+            }
+          }
+        },
+        "Process": {
+          "variants": {
+            "PlumbingProcess2": {
+              "subtitle": "HOW WE WORK",
+              "title1": "Simple 4-Step Care",
+              "title2": "From Call To Finish",
+              "bgImage": "/other/process.jpg",
+              "steps": [
+                {
+                  "id": "p1",
+                  "icon": "FiMessageSquare",
+                  "number": "01",
+                  "title": "Reach Out",
+                  "description": "Call us or send a message telling us what needs fixing."
+                },
+                {
+                  "id": "p2",
+                  "icon": "FiCalendar",
+                  "number": "02",
+                  "title": "Pick A Time",
+                  "description": "Choose a convenient visit time that fits your day perfectly."
+                },
+                {
+                  "id": "p3",
+                  "icon": "FiTool",
+                  "number": "03",
+                  "title": "Clear Price & Repair",
+                  "description": "We inspect the issue, share a clear quote, and do the repair cleanly."
+                },
+                {
+                  "id": "p4",
+                  "icon": "FiCheckCircle",
+                  "number": "04",
+                  "title": "Peace Of Mind",
+                  "description": "We test everything thoroughly and leave your space neat and tidy."
+                }
+              ]
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "PlumbingWhyChooseUs2": {
+              "subtitle": "WHY CHOOSE US",
+              "title1": "Why Homeowners",
+              "title2": "Trust BluePipe",
+              "description": "We believe good plumbing is built on trust, punctuality, and fair pricing. Here is why neighbors call us year after year.",
+              "features": [
+                {
+                  "id": "wc-1",
+                  "icon": "FiTool",
+                  "title": "Licensed & Skilled",
+                  "description": "Every plumber is vetted, certified, and trained on the latest tools."
+                },
+                {
+                  "id": "wc-2",
+                  "icon": "FiShield",
+                  "title": "Upfront Honest Rates",
+                  "description": "No surprise charges or hidden fees. You approve the quote before we start."
+                },
+                {
+                  "id": "wc-3",
+                  "icon": "FiSettings",
+                  "title": "Clean & Respectful",
+                  "description": "We wear shoe covers, protect your floors, and clean up completely."
+                },
+                {
+                  "id": "wc-4",
+                  "icon": "FiClock",
+                  "title": "On-Time Arrival",
+                  "description": "We value your time and send text updates when our team is on the way."
+                },
+                {
+                  "id": "wc-5",
+                  "icon": "FiThumbsUp",
+                  "title": "Workmanship Guarantee",
+                  "description": "We stand behind our repairs with a 100% satisfaction guarantee."
+                },
+                {
+                  "id": "wc-6",
+                  "icon": "FiUsers",
+                  "title": "Friendly Local Support",
+                  "description": "A friendly voice always answers your call ready to help immediately."
+                }
+              ],
+              "button": {
+                "text": "Schedule Today ->",
+                "url": "#contact"
+              },
+              "imageMain": "/other/about-main.jpg",
+              "badgeTitle": "Trusted",
+              "badgeText": "Plumbers"
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "PlumbingTestimonials2": {
+              "subtitle": "HAPPY CLIENTS",
+              "title1": "Real Stories From",
+              "title2": "Satisfied Customers",
+              "description": "See what our neighbors have to say about our fast response, honest pricing, and quality repairs.",
+              "testimonials": [
+                {
+                  "id": "t1",
+                  "name": "Sarah Jenkins",
+                  "location": "Homeowner, Brooklyn",
+                  "quote": "Woke up to a leaking kitchen pipe on a rainy Saturday. BluePipe arrived in 45 minutes, fixed it cleanly, and the price was exactly what they quoted upfront.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-1.jpg"
+                },
+                {
+                  "id": "t2",
+                  "name": "David Martinez",
+                  "location": "Cafe Owner, Manhattan",
+                  "quote": "Our cafe bathroom drain clogged right before lunch rush. Their plumber cleared the blockage in twenty minutes without making any mess. Lifesavers!",
+                  "rating": 5,
+                  "avatar": "/other/avatar-2.jpg"
+                },
+                {
+                  "id": "t3",
+                  "name": "Emily Watson",
+                  "location": "Homeowner, Queens",
+                  "quote": "They replaced our old noisy water heater with a modern energy-saving model. Very polite technicians, neat wiring, and endless hot water now.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-3.jpg"
+                },
+                {
+                  "id": "t4",
+                  "name": "Michael Chang",
+                  "location": "Homeowner, Jersey City",
+                  "quote": "Honest and professional. Another company tried to charge me thousands for a whole new line, but BluePipe just replaced one faulty valve and fixed it completely.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-4.jpg"
+                },
+                {
+                  "id": "t5",
+                  "name": "Jessica Taylor",
+                  "location": "Apartment Owner, Bronx",
+                  "quote": "Fabulous service! The technician put down protective floor mats, explained what went wrong with our shower pressure, and fixed it the same afternoon.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-1.jpg"
+                },
+                {
+                  "id": "t6",
+                  "name": "Robert Miller",
+                  "location": "Property Manager, Staten Island",
+                  "quote": "I manage 12 rental units and BluePipe is the only plumbing company I call. Fast scheduling, clear invoices, and zero tenant complaints.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-2.jpg"
+                }
+              ]
+            }
+          }
+        },
+        "Cta": {
+          "variants": {
+            "PlumbingCta2": {
+              "subtitle": "NEED FAST HELP?",
+              "title1": "Have A Plumbing Issue?",
+              "title2": "Let Us Fix It Today.",
+              "description": "Do not let a small drip turn into expensive water damage. Call us or send a message for same-day plumbing assistance.",
+              "button1": {
+                "text": "Call +1 (555) 234-5678",
+                "url": "tel:+15552345678"
+              },
+              "button2": {
+                "text": "Send A Message",
+                "url": "#contact"
+              },
+              "image": "/other/cta.jpg"
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "PlumbingContact2": {
+              "subtitle": "GET IN TOUCH",
+              "title1": "We Are Ready",
+              "title2": "To Help You",
+              "description": "Whether you need an urgent repair, a routine seasonal checkup, or a new fixture installed, message us anytime.",
+              "contactInfo": {
+                "phoneTitle": "Call For Help",
+                "phone": "+1 (555) 234-5678",
+                "emailTitle": "Send An Email",
+                "email": "help@bluepipeplumbing.com",
+                "addressTitle": "Head Office",
+                "address": "123 River Road, Suite 400, New York, NY",
+                "hoursTitle": "Working Hours",
+                "hoursLine1": "Mon - Sat: 8:00 AM - 8:00 PM",
+                "hoursLine2": "Sunday: 24/7 Emergency Line"
+              },
+              "form": {
+                "title": "Send Us A Message",
+                "description": "Tell us about your issue and we will respond within 15 minutes.",
+                "buttonText": "Send Request",
+                "servicesList": [
+                  "Pipe Leak Repair",
+                  "Clogged Drain Cleaning",
+                  "Water Heater Service",
+                  "Toilet / Bathroom Repair",
+                  "Faucet / Sink Installation",
+                  "Emergency Plumbing"
+                ]
+              },
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2528000654!2d-74.1444874457788!3d40.69766374865766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+              "infoBoxes": [
+                {
+                  "icon": "FaClock",
+                  "title": "Flexible Hours",
+                  "desc1": "Mon - Sat: 8:00 AM - 8:00 PM",
+                  "desc2": "Sunday: Emergency Service"
+                },
+                {
+                  "icon": "FaHeadset",
+                  "title": "Fast Response",
+                  "desc1": "Call anytime for rapid",
+                  "desc2": "same-day emergency repairs."
+                },
+                {
+                  "icon": "FaFileAlt",
+                  "title": "Free Estimates",
+                  "desc1": "Clear upfront pricing with",
+                  "desc2": "zero hidden fees or surprises."
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
